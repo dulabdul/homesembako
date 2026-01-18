@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/og-image.webp', // Pastikan buat gambar ini (1200x630px)
+        url: '/og-image1.webp', // Pastikan buat gambar ini (1200x630px)
         width: 1200,
         height: 630,
         alt: 'Home Sembako',
