@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors - Fresh Modern Grocery Indonesia */
+
+  /* Primary Base (Fresh Green) */
+  --color-primary: #1F7A4D;
+
+  /* Primary Variations */
+  --color-primary-light: #2FA36B;   /* hover / highlight */
+  --color-primary-soft: #E6F4ED;    /* badge / soft background */
+  --color-primary-dark: #155E3F;    /* active */
+  --color-primary-darker: #0F3F2A;  /* footer / strong contrast */
+
+  /* Secondary & Accent (Warm Market Feel) */
+  --color-secondary: #F59E0B;       /* warm yellow-orange */
+  --color-secondary-soft: #FEF3C7;
+
+  --color-accent: #DCFCE7;          /* light fresh accent */
+
+  /* Backgrounds */
+  --color-background: #F8FAFC;
+  --color-background-warm: #F1F8F4;
+
+  /* Text (WCAG-safe contrast) */
+  --color-text-main: #0F172A;
+  --color-text-muted: #475569;
+  --color-text-on-primary: #FFFFFF;
+}
+
+
+/* Custom Utilities */
+@layer utilities {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-text-main antialiased;
+}
