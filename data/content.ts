@@ -1,6 +1,6 @@
 export const SITE_CONFIG = {
   name: "Home Sembako",
-  whatsappNumber: "6285825250952", // Ganti nomor disini
+  whatsappNumber: "6282292366685", // Ganti nomor disini
   email: "official@homesembako.com",
   address: "Disdukcapil Lampung Selatan, Marga Agung, Jati Agung, South Lampung Regency, Lampung 35365",
 
